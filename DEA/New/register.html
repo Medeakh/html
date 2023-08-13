@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up</title>
+</head>
+
+<body>
+  <div class="register">
+    <fieldset>
+      <legend>Sign up</legend>
+      <form action="search.html" method="post" enctype="application/x-www-form-urlencoded">
+        First name <input type="text" name="FirstName"><br>
+        Last name <input type="text" name="LastName"><br>
+        Email <input type="email" name="Email" required><br>
+        Phone number <input type="tel" name="PhoneNumber" required><br>
+        <p>Okay to contact me:</p>
+        <input type="checkbox" name="OkayToContactMe" value="Phone">by phone
+        <input type="checkbox" name="OkayToContactMe" value="Email">by email <br>
+        Password <input type="password" name="Password"><br>
+        Birthday <input type="date" name="Birthday" required><br>
+        Gender:
+        <br>
+        <input type="radio" name="Gender" value="Female"> Female<br>
+        <input type="radio" name="Gender" value="Male">Male<br>
+        <input type="radio" name="Gender" value="Other">Other<br>
+        Favorite Car:
+        <br>
+        <select name="FavoriteCar">
+          <option value="Boxster/Cayman">Boxster/Cayman</option>
+          <option value="911">911</option>
+          <option value="Panamera">Panamera</option>
+          <option value="Macan">Macan</option>
+          <option value="Taycan">Taycan</option>
+        </select><br>
+        <input type="submit" name="submit">
+        <input type="reset" name="reset">
+      </form>
+    </fieldset>
+  </div>
+</body>
+
+</html>
